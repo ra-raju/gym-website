@@ -256,3 +256,108 @@ header {
 .instructor-profile a {
   font-size: 2rem;
 }
+
+/* ==================================
+  gym class sectiono
+==================================*/
+
+.gym-class-section {
+  height: 100vh;
+  width: 100%;
+  padding: 7rem 0;
+}
+.heading-para {
+  font-size: 2rem;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: -0.5rem;
+  text-align: center;
+}
+.gym-class-section h1 {
+  text-align: center;
+}
+
+.class-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem 0;
+}
+
+.class {
+  width: 25%;
+  /* height: 40vh; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+  margin: 0 3rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.class-img img {
+  width: 100%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.class-info {
+  padding: 3rem 2rem;
+  display: flex;
+  /* align-items: baseline; */
+}
+
+.class-name h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+.class-name p {
+  font-size: 2rem;
+}
+
+.class-name .trainer {
+  font-weight: 700;
+  color: gray;
+}
+
+.class-description {
+  font-size: 2rem;
+}
+/* 
+.price {
+  background-color: orangered;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+} */
+
+.price h2 {
+  font-weight: 900;
+  text-align: center;
+
+  color: white;
+  background-color: orangered;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 1.5rem 0;
+}
