@@ -134,7 +134,7 @@ header {
 .section-heading {
   font-size: 4rem;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .new-member h3 {
@@ -189,5 +189,70 @@ header {
 
 .working-hour .hour {
   color: gray;
+  font-size: 2rem;
+}
+
+/*============================== instructor section 
+=============================== */
+.instructor-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #ddd;
+  padding: 15rem 0;
+}
+
+.instructor-details {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.instructor-info {
+  width: 35%;
+}
+
+.instructor-info p {
+  font-size: 2rem;
+  margin: 2rem 0;
+  font-weight: 300;
+}
+
+.instructor {
+  width: 25rem;
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+.instructor-card {
+  width: 45%;
+}
+
+.instructors {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.instructor-name h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.instructor-name p {
+  font-size: 1.8rem;
+}
+
+.instructor-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.instructor-profile a {
   font-size: 2rem;
 }
